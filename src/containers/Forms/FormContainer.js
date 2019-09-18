@@ -1,19 +1,14 @@
 import React, { PureComponent } from 'react';
 
-class FormContainer extends PureComponent {
-    
-    componentDidMount() {
-        this.props.fetch();
-    }
+export default class FormContainer extends PureComponent {
+
 
     render() {
         return (
             <section>
+                <p>hai</p>
             </section>
         )
     }
 }
 
-export default connect(
-    
-)(FormContainer);
