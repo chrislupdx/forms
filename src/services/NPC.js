@@ -1,4 +1,4 @@
 import { post } from './request';
 
 
-export const createNPC = () => post('api/v1/NPC', npc);
+export const createNPC = npc => post('api/v1/NPC', npc);

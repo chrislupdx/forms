@@ -26,6 +26,8 @@
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.4.2",
+    "node-fetch": "^2.6.0",
+    "promise-middleware-redux": "^1.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "typeface-roboto": "0.0.75"
